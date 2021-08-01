@@ -1,0 +1,416 @@
+body{
+   
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+
+}
+
+.lista{
+    display: flex;
+}
+
+a{
+    
+    text-decoration: none;
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+    color: white;
+}
+/*sobre escribo estilo etiqueta a del nav*/
+
+.item{
+    background: none;
+    color: black;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.titular{
+    text-align: center;
+    margin-top: 200px; /*bajar elementos*/
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+
+
+header{
+    background: url(/img/fondo.jpg);
+    height: 100vh;
+   
+    background-position: center;
+   
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+/*personalizar boton del titular*/
+.titular a:hover{
+    color: black;
+    transition: 1s;
+    transform: scale(1.4);/*solo para ele bloque*/
+    display: inline-block;/*convertimos en bloque al boton*/
+    
+}
+
+/* INICIA SECCION SOBRE MI */
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+.contenedor-sobremi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /*alinea los elementos vertical*/
+}
+
+.contenedor-parrafo-y-boton {
+    width: 48%;/*42*/
+}
+
+.contenedor-parrafo-y-boton p {
+    font-size: 18.1px;
+}
+
+.parrafo-final {
+    margin-bottom: 35px;
+}
+
+/*personalizar boton sobre mi*/
+.contenedor-parrafo-y-boton a:hover{
+    color: black;
+    transition: 1s;
+    transform: scale(1.4);/*solo para ele bloque*/
+    display: inline-block;/*convertimos en bloque al boton*/
+    
+}
+
+/*INICIA SECCION SERVICIOS*/
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;/*actua como conjunto con el flex y widht de servicio*/
+    justify-content: space-around; /*separar elementos*/
+  }
+
+  .servicio {
+    width: 25%;/*aqui el pading esta sumando al padding fijarse*/
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px; /*separa las cajas hacia abajo*/
+    color: #fff;
+  }
+
+
+  .violeta {
+    background: #5055df;
+  }
+
+
+  .celeste {
+    background: #40a8fa;
+  }
+  
+  .servicio h4 {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .servicio img {
+    float: right;/*ponemos a la derecha el icono*/
+  }
+  
+  .servicio p {
+    font-size: 18px;
+    height: 200px;/*alto fijo asi se mantiene el icono en su lugar por si tiene menos contenido en parrafo posea la tarjeta */
+  }
+
+  /*INICIO C: personalizando carrusel notebooks*/
+span{
+ font-size: 80px;/*cambiando tamaño de flechas*/
+ color: blue;
+}
+.owl-nav{
+    text-align: center;/*centramos las flechas*/
+}
+/*FIN C*/
+
+/*INICIO TRABAJAR CONMIGO*/
+.contenedor-porque{
+    display: flex;
+    justify-content: space-around;/*separacion entre elementos*/
+    text-align: center;
+}
+
+.contenedor-porque h4{
+    margin: 0;/*sacamos margen a los h4 q vienen por defecto*/
+    font-size: 20px;
+}
+
+.contenedor-porque p{
+    font-size: 16px;
+    line-height: 28px;/*separa las lineas de parrafo*/
+}
+
+.porque-singular{
+    width: 28%;
+}
+/*FIN*/
+
+/*INICIO BLOG*/
+#blog{
+    background: #F9FAFC;
+    padding-top: 50px;
+    padding-bottom: 50px;/*q*/
+}
+
+.contenedor-publicaciones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicacion{
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;/*sombra*/
+    padding-bottom: 20px;/*para q no quede pegado los cortones al boton*/
+}
+
+#blog img {
+    width: 100%;/*para q rellene la tarjeta*/
+
+}
+
+#blog h4{
+    font-size: 23px;
+    margin: 0;
+    padding: 20px;
+}
+
+#blog p{
+    color: #5A6169;
+    line-height: 24px;
+    font-size: 16px;
+
+    padding: 10px 20px 20px 20px;
+    margin: 0;
+}
+
+#blog a{
+    display: inline-block;
+    margin-left: 20px;
+}
+/*le cambiamos el alto para q sea igual a la primera*/
+.publicacion-segunda img{
+    height: 265px/*245px;*/
+}
+
+
+/*FIN BLOG*/
+
+/*INICIO PIE DE PAGINA*/
+#que-esperas{
+    
+    background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+#que-esperas h3{
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#que-esperas a{
+    padding: 15px 45px 15px 45px;
+    transition: 1s;
+}
+/*personalizar boton*/
+#que-esperas a:hover{
+    color: black;
+    transition: 1s;
+    transform: scale(1.4);/*solo para ele bloque*/
+    display: inline-block;/*convertimos en bloque al boton*/
+    
+}
+
+/*MAPS*/
+.contenedor-map{
+    text-align: center;
+}
+.contenedor-map iframe{
+    width: 1020px;
+    height: 350px;
+   position: relative;/*1*/
+   top: 7px;/*2 bajamos un poquito el map para q quede pegado al footer */
+}
+
+.menu-icon {
+    display: none;/*ocultamos el icono*/
+}
+
+/*BOTON IR ARRIBA*/
+#ir-arriba a{
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
+}
+
+#ir-arriba img{
+    width: 50px;
+}
+
+
+
+/*celular*/
+@media (max-width: 800px){
+    /*se va a aplicar cuando el max de ancho
+    sea 800px*/
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #5cb8ff;
+        width: 100%;
+        display: none;/*ocultamos por defecto el menu hasta q sea click*/
+    }
+
+    nav .lista{
+        flex-direction: column;
+        display: flex;
+        
+    }
+    .menu-icon{
+        display: block;/*mostramos el icono*/
+        width: 25px;
+    }
+
+    .titular {
+        margin-top: 54px;
+    }
+
+    h1 {
+        font-size: 49px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    .contenedor-sobremi {
+        flex-direction: column;
+    }
+
+    .contenedor-parrafo-y-boton {
+        width: 90%;
+    }
+
+    .contenedor-servicios {
+        flex-direction: column;
+    }
+
+    .servicio {
+        width: 72%;
+        margin: auto;/*para centrarlo*/
+        margin-bottom: 15px;
+    }
+
+    .servicio p {
+        
+        height: 295px;/*alto fijo asi se mantiene el icono en su lugar por si tiene menos contenido en parrafo posea la tarjeta */
+      }
+
+    h3{
+        font-size: 46px;
+    }
+
+    .contenedor-porque {
+        flex-direction: column;
+    }
+
+    .porque-singular {
+        width: 95%;
+    }
+
+    .contenedor-publicaciones {
+        flex-direction: column;
+    }
+
+    .publicacion {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    /*MAPS*/
+    .contenedor-map{
+        text-align: center;
+        margin: 0;
+    }
+    .contenedor-map iframe{
+        width: 85%;
+    }
+
+
+    /*FLECHA IR ARRIBA*/
+    #ir-arriba a{
+        background: none;
+        position: fixed;
+        
+        right: -20px;
+    }
+
+    #ir-arriba img{
+        width: 40px;
+    }
+}
+
+/*IPAD*/
+@media(min-width:700px) and 
+(max-width:900px){
+    header {
+        height: 60vh;
+       
+    }
+
+   .servicio{
+       width: 50%;
+   }
+
+   .publicacion{
+       width: 62%;
+   }
+
+   .contenedor-map iframe{
+       width: 62%;
+   }
+
+}
