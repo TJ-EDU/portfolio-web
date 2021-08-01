@@ -59,7 +59,7 @@ h2{
 
 
 header{
-    background: url(/img/fondo.jpg);
+    background: url(../img/fondo.jpg);
     height: 100vh;
    
     background-position: center;
