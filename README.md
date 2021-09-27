@@ -1,3 +1,3 @@
 # Portfolio-web
 
-Portfolio Web integrando tecnologias Frontend: HTML, CSS, JS para el curso de Desarrollo Web Full Stack desde cero
+Web Portfolio integrating Frontend technologies: HTML, CSS, JS for the Full Stack Web Development course from scratch
